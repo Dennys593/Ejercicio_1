@@ -6,11 +6,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("===== CUARTEL DE HEROES =====");
 
-        // Invoca el constructor por defecto
         Heroe recluta = new Heroe();
         recluta.presentarse();
 
-        // Lee los datos del teclado e invoca el constructor con parametros
         System.out.print("Nombre del nuevo heroe: ");
         String nombre = sc.nextLine();
         System.out.print("Origen: ");
